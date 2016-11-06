@@ -1,0 +1,14 @@
+table {
+	border: 1px grey solid;
+	padding: 10px;
+}
+
+td {
+	border: 1px grey solid;
+	padding: 4px;
+}
+
+thead {
+	background: lightgrey;
+}
+
