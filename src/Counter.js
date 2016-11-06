@@ -16,7 +16,7 @@ var Counter = React.createClass({
 		console.log(this.name + ' updates...');
 		return (
 			<div>
-				<h1>Moar bigness with {this.props.text.length} characters in the word {this.props.text +'!'}</h1>
+				<h1>Bigger component with the same state passed in: <br /> {this.props.text.length} characters in the word <em>{this.props.text}</em></h1>
 			</div>
 		);
 	}

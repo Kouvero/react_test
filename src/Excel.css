@@ -1,6 +1,7 @@
 table {
 	border: 1px grey solid;
 	padding: 10px;
+	background-color: lightblue;
 }
 
 td {
@@ -12,3 +13,14 @@ thead {
 	background: lightgrey;
 }
 
+fieldset {
+	background: lightyellow;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}

@@ -100,6 +100,9 @@ var Excel = React.createClass({
 
 	render: function() {
 		return (
+			<div>
+			<fieldset>
+			<legend>Amazing Stuff</legend>
 			<table>
 				<thead onClick={this._sort}>
 					<tr>
@@ -107,9 +110,11 @@ var Excel = React.createClass({
 					</tr>
 				</thead>
 				<tbody onDoubleClick={this._showEditor}>
-						{this.renderTable(this.state.data)}														
+					{this.renderTable(this.state.data)}														
 				</tbody>
 			</table>
+			</fieldset>
+			</div>
 		);		
 	}		
 	

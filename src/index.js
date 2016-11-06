@@ -7,7 +7,7 @@ import Excel from './Excel';
 var TextAreaCounter = React.createClass({
 	getDefaultProps: function() {
 		return {
-			text: 'plaap'
+			text: 'foo'
 		};
 	},
 
